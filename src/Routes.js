@@ -17,7 +17,7 @@ class Routes extends React.Component {
 		return (
 			<BrowserRouter history={ BrowserRouter }>
 				<Switch>
-					<Route path='/' component={ Root } exact />
+					<Route path='/' component={ App } exact />
 					<Route path='/home' component={ Root } />
 					<Route path='/breads' component={ Breads } />
 					<Route path='/contact_us' component={ ContactUs } />
